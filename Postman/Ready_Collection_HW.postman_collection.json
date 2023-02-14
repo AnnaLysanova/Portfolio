@@ -1,0 +1,691 @@
+{
+	"info": {
+		"_postman_id": "3073c04a-c953-482d-94cf-8983097a3534",
+		"name": "Ready_Collection_HW",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20964244"
+	},
+	"item": [
+		{
+			"name": "HW_1_EP_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/get_method?name=str&age=int",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "str"
+						},
+						{
+							"key": "age",
+							"value": "int"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "HW_1_EP_1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://162.55.220.72:5005/get_method?name=str&age=int",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"get_method"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "str"
+								},
+								{
+									"key": "age",
+									"value": "int"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "22"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.0.1 Python/3.8.10"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 30 Jun 2022 08:51:35 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    \"str\",\n    \"int\"\n]"
+				}
+			]
+		},
+		{
+			"name": "HW_1_EP_3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_1?name=Olga&age=30&weight=60",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Olga"
+						},
+						{
+							"key": "age",
+							"value": "30"
+						},
+						{
+							"key": "weight",
+							"value": "60"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "HW_1_EP_3",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://162.55.220.72:5005/object_info_1?name=Olga&age=30&weight=60",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"object_info_1"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Olga"
+								},
+								{
+									"key": "age",
+									"value": "30"
+								},
+								{
+									"key": "weight",
+									"value": "60"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "83"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.0.1 Python/3.8.10"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 30 Jun 2022 09:40:41 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"age\": 30,\n    \"daily_food\": 0.72,\n    \"daily_sleep\": 150,\n    \"name\": \"Olga\"\n}"
+				}
+			]
+		},
+		{
+			"name": "HW_1_EP_4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_2?name=Nina&age=35&salary=3500",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Nina"
+						},
+						{
+							"key": "age",
+							"value": "35"
+						},
+						{
+							"key": "salary",
+							"value": "3500"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "HW_1_EP_4",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://162.55.220.72:5005/object_info_2?name=Nina&age=35&salary=3500",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"object_info_2"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Nina"
+								},
+								{
+									"key": "age",
+									"value": "35"
+								},
+								{
+									"key": "salary",
+									"value": "3500"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "319"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.0.1 Python/3.8.10"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 30 Jun 2022 09:44:05 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"person\": {\n        \"u_age\": 35,\n        \"u_name\": [\n            \"Nina\",\n            3500,\n            35\n        ],\n        \"u_salary_5_years\": 14700\n    },\n    \"qa_salary_after_1.5_year\": 11550,\n    \"qa_salary_after_12_months\": 9450,\n    \"qa_salary_after_3.5_years\": 13300,\n    \"qa_salary_after_6_months\": 7000,\n    \"start_qa_salary\": 3500\n}"
+				}
+			]
+		},
+		{
+			"name": "HW_1_EP_5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_3?name=Maria&age=45&salary=4500",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Maria"
+						},
+						{
+							"key": "age",
+							"value": "45"
+						},
+						{
+							"key": "salary",
+							"value": "4500"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "HW_1_EP_5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://162.55.220.72:5005/object_info_3?name=Maria&age=45&salary=4500",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"object_info_3"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Maria"
+								},
+								{
+									"key": "age",
+									"value": "45"
+								},
+								{
+									"key": "salary",
+									"value": "4500"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "379"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.0.1 Python/3.8.10"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 30 Jun 2022 09:47:33 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"age\": \"45\",\n    \"family\": {\n        \"children\": [\n            [\n                \"Alex\",\n                24\n            ],\n            [\n                \"Kate\",\n                12\n            ]\n        ],\n        \"pets\": {\n            \"cat\": {\n                \"age\": 3,\n                \"name\": \"Sunny\"\n            },\n            \"dog\": {\n                \"age\": 4,\n                \"name\": \"Luky\"\n            }\n        },\n        \"u_salary_1_5_year\": 18000\n    },\n    \"name\": \"Maria\",\n    \"salary\": 4500\n}"
+				}
+			]
+		},
+		{
+			"name": "HW_1_EP_6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_4?name=Sasha&age=25&salary=2500",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Sasha"
+						},
+						{
+							"key": "age",
+							"value": "25"
+						},
+						{
+							"key": "salary",
+							"value": "2500"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "HW_1_EP_6",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://162.55.220.72:5005/object_info_4?name=Sasha&age=25&salary=2500",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"object_info_4"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Sasha"
+								},
+								{
+									"key": "age",
+									"value": "25"
+								},
+								{
+									"key": "salary",
+									"value": "2500"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "91"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.0.1 Python/3.8.10"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 30 Jun 2022 09:51:48 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"age\": 25,\n    \"name\": \"Sasha\",\n    \"salary\": [\n        2500,\n        \"5000\",\n        \"7500\"\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "HW_1_EP_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Victor",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "40",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "4000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/user_info_3",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"user_info_3"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "HW_1_EP_2",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Victor",
+									"type": "text"
+								},
+								{
+									"key": "age",
+									"value": "40",
+									"type": "text"
+								},
+								{
+									"key": "salary",
+									"value": "4000",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://162.55.220.72:5005/user_info_3",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"user_info_3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "225"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.0.1 Python/3.8.10"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 30 Jun 2022 09:38:18 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"age\": \"40\",\n    \"family\": {\n        \"children\": [\n            [\n                \"Alex\",\n                24\n            ],\n            [\n                \"Kate\",\n                12\n            ]\n        ],\n        \"u_salary_1_5_year\": 16000\n    },\n    \"name\": \"Victor\",\n    \"salary\": 4000\n}"
+				}
+			]
+		},
+		{
+			"name": "HW_1_EP_7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "John",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "39",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "3900",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/user_info_2",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "HW_1_EP_7",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "John",
+									"type": "text"
+								},
+								{
+									"key": "age",
+									"value": "39",
+									"type": "text"
+								},
+								{
+									"key": "salary",
+									"value": "3900",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://162.55.220.72:5005/user_info_2",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"user_info_2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "320"
+						},
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.0.1 Python/3.8.10"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 30 Jun 2022 09:53:54 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"person\": {\n        \"u_age\": 39,\n        \"u_name\": [\n            \"John\",\n            3900,\n            39\n        ],\n        \"u_salary_5_years\": 16380\n    },\n    \"qa_salary_after_1.5_year\": 12870,\n    \"qa_salary_after_12_months\": 10530,\n    \"qa_salary_after_3.5_years\": 14820,\n    \"qa_salary_after_6_months\": 7800,\n    \"start_qa_salary\": 3900\n}"
+				}
+			]
+		}
+	]
+}
